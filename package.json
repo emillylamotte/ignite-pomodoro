@@ -1,5 +1,6 @@
 {
   "name": "ignite-pomodoro",
+  "homepage": "https://emillylamotte.github.io/ignite-pomodoro/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
