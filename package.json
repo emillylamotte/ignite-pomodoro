@@ -9,7 +9,7 @@
     "build": "tsc -b && vite build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "lint": "eslint .",
+    "lint": "eslint src --ext .ts,.tsx --fix",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -18,11 +18,13 @@
     "styled-components": "^6.1.15"
   },
   "devDependencies": {
-    "@eslint/js": "^9.19.0",
+    "@eslint/eslintrc": "^3.3.0",
+    "@eslint/js": "^9.21.0",
+    "@rocketseat/eslint-config": "^2.2.2",
     "@types/react": "^19.0.8",
     "@types/react-dom": "^19.0.3",
     "@vitejs/plugin-react": "^4.3.4",
-    "eslint": "^9.19.0",
+    "eslint": "^9.21.0",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.18",
     "gh-pages": "^6.3.0",
