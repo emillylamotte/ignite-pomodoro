@@ -6,10 +6,10 @@ import { Layout } from '../pages/Layout'
 export function Router() {
   return (
     <Routes>
-      <Route path="/ignite-pomodoro" element={<Layout />}>
-        <Route path="/ignite-pomodoro" element={<Home />} />
-        <Route path="/ignite-pomodoro/home" element={<Home />} />
-        <Route path="/ignite-pomodoro/history" element={<History />} />
+      <Route path="/" element={<Layout />}>
+        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/history" element={<History />} />
         <Route path="*" element={<Home />} />
       </Route>
     </Routes>

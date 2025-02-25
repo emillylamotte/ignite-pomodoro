@@ -9,7 +9,7 @@ import { Router } from './routers/index.tsx'
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <ThemeProvider theme={themeDefault}>
-      <BrowserRouter>
+      <BrowserRouter basename="/ignite-pomodoro">
         <Router />
       </BrowserRouter>
       <GlobalStyles />
