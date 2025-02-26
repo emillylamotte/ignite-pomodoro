@@ -20,6 +20,7 @@ export const GlobalStyles = createGlobalStyle`
         font-weight: 400;
         font-size: 1rem;
         width: 100%;
+        -webkit-font-smoothing: antialiased;
     }
     input, textarea, select, button {
         font-family: inherit;
